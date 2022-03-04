@@ -38,7 +38,7 @@ PSPires requires Java (version >=7.x) and Python (version 3.x.x).
 
 4. Download required data and put them under the data folder: 
    
-   + Qt 4.8.6 libraray container image needer for PSAIA software running: [psaia.img](https://compbio-zhanglab.org/release/psaia.img)
+   + Qt 4.8.6 libraray container image needer for PSAIA software running: [psaia.simg](https://compbio-zhanglab.org/release/psaia.simg)
 
 # Parameters
 
