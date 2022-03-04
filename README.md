@@ -109,11 +109,11 @@ Optional parameters:
 3. Specify PDB file of a protein:
    
    ```shell
-   ${SOFTWAREPATH}/PSPires.py -p ${SOFTWAREPATH}/demo/AF-A0A2R8QUZ1-F1-model_v2.pdb
+   $ ${SOFTWAREPATH}/PSPires.py -p ${SOFTWAREPATH}/demo/AF-A0A2R8QUZ1-F1-model_v2.pdb
    ```
 
 4. Specify absolute directory path of pdb files:
    
    ```shell
-   ${SOFTWAREPATH}/PSPires.py -d ${SOFTWAREPATH}/demo
+   $ ${SOFTWAREPATH}/PSPires.py -d ${SOFTWAREPATH}/demo
    ```
