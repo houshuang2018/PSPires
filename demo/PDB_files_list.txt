@@ -1,0 +1,3 @@
+/mnt/Storage/home/houshuang/ps-structure_prediction/00PSPires/demo/AF-O60885-F1-model_v2.pdb
+/mnt/Storage/home/houshuang/ps-structure_prediction/00PSPires/demo/AF-Q14781-F1-model_v2.pdb
+/mnt/Storage/home/houshuang/ps-structure_prediction/00PSPires/demo/AF-P45973-F1-model_v2.pdb
