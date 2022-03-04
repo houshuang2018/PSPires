@@ -46,13 +46,13 @@ Required parameters: the following parameters are required and you can only spec
 
 ```python
 -u UNIPROT [UNIPROT ...], --uniprot UNIPROT [UNIPROT ...]
-                        UniProt IDs. Multiple IDs should be separated by space.
+                      UniProt IDs. Multiple IDs should be separated by space.
 -f FILE, --file FILE  List file with UniProt IDs or absolute path of protein pdb files.
                         Each ID or pdb file name should take one line.
 -p PDBFILE, --pdbfile PDBFILE
-                        PDB file of a protein.
+                      PDB file of a protein.
 -d DIRECTORY, --directory DIRECTORY
-                        Absolute directory path of pdb files. The script will automatically
+                      Absolute directory path of pdb files. The script will automatically
                         search files with pdb suffix under the specified directory.
 ```
 
@@ -60,7 +60,7 @@ Optional parameters:
 
 ```python
 -o OUTPUT, --output OUTPUT
-                        Output file name. If not specified, result would be sent to standard
+                      Output file name. If not specified, result would be sent to standard
                         out.
 -n NAME, --name NAME  Project name. PSPires would use this name to create temporary file
                         directory. If not specified, the name would be PSPires_tmpDir.
@@ -74,13 +74,13 @@ Optional parameters:
                         little to the model performance. When complex is on, PSPires would
                         calculate ProtDCal features and it may take much longer time.
 -t THRESHOLD, --threshold THRESHOLD
-                        Threshold of pLDDT score to get idr regions. The default value is 70.
+                      Threshold of pLDDT score to get idr regions. The default value is 70.
 -c CUTOFF, --cutoff CUTOFF
-                        If the RSA percentage of a residue is greater than this cutoff, it
+                      If the RSA percentage of a residue is greater than this cutoff, it
                         will be assigned as exposed surface residue, otherwise as buried
                         residue. The default value is 34.
 -r RANDOM, --random RANDOM
-                        Random seed. The model with random seed of 42 has been pre-trained.
+                      Random seed. The model with random seed of 42 has been pre-trained.
                         By default, PSPires would use this pre-trained model. If you specify
                         other random seed, the calculation would take longer to train new
                         model. The default value is 42.
