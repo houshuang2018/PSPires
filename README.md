@@ -64,15 +64,6 @@ Optional parameters:
                         out.
 -n NAME, --name NAME  Project name. PSPires would use this name to create temporary file
                         directory. If not specified, the name would be PSPires_tmpDir.
---dont_resume         By default, each re-run would use previous temporary files to resume
-                        from the step it crashed. When dont_resume is on, PSPires would clean
-                        up the temporary files and start from the beginning.
---dont_remove         By default, PSPires would clean up temporary files. When dont_remove
-                        is on, PSPires would keep temporary files.
---complete            By default, PSPires would not include the features calculated by
-                        ProtDCal software as the calculation is time-consuming and contribute
-                        little to the model performance. When complex is on, PSPires would
-                        calculate ProtDCal features and it may take much longer time.
 -t THRESHOLD, --threshold THRESHOLD
                       Threshold of pLDDT score to get idr regions. The default value is 70.
 -c CUTOFF, --cutoff CUTOFF
@@ -88,6 +79,15 @@ Optional parameters:
                         train the Random Forest Classifier model. And if complete mode is on,
                         PSPires would launch the given number of jobs to run ProtDCal. The
                         default value is 10.
+--dont_resume         By default, each re-run would use previous temporary files to resume
+                        from the step it crashed. When dont_resume is on, PSPires would clean
+                        up the temporary files and start from the beginning.
+--dont_remove         By default, PSPires would clean up temporary files. When dont_remove
+                        is on, PSPires would keep temporary files.
+--complete            By default, PSPires would not include the features calculated by
+                        ProtDCal software as the calculation is time-consuming and contribute
+                        little to the model performance. When complex is on, PSPires would
+                        calculate ProtDCal features and it may take much longer time.
 ```
 
 ## Usage
